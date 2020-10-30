@@ -2,7 +2,7 @@
 
 The previous exercise demonstrated how you can create a more complicated random variable by combining easier to generate random variables.  In that exercise, the simple random variable was a uniform discrete random variable that was greater than or equal to a and less than or equal to b.  The more complex random variable was then a sum of these simpler random variables.  We can make this even more complicated by calculating a sample mean from m samples of these sums of n uniform discrete random variables.  In other words, we can generate a random variable as:
 
-![](https://render.githubusercontent.com/render/math?math=\overline{Y} = \frac{1}{m}\sum_{i=1}^{m}\sum_{j=1}^n X_{ij})
+![](https://render.githubusercontent.com/render/math?math=\overline{Y} = \frac{1}{m}\sum_{i=1}^{m}\sum_{j=1}^{n}X_{ij})
 
 In this expression, each of the ![](https://render.githubusercontent.com/render/math?math=X_{ij}) is a uniform discrete random variable that lies between a and b.  An expression similar to this one would be used to calculate the average value that we get when we roll n fair dice m times.
 
